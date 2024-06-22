@@ -18,7 +18,7 @@ Add it to your `eslint.config.mjs`.
 import muwum from 'muwum-eslint-config';
 
 export default [
-  muwum.electron.vue.ts,
+  ...muwum.electron.vue.ts,
   // other configurations
 ];
 ```
