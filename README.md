@@ -11,12 +11,14 @@ npm install --save-dev https://github.com/MuwuM/muwum-eslint-config
 ## Usage
 
 Add it to your `eslint.config.mjs`.
-  
+
+### electron + vue + typescript
+
 ```javascript
-import muwum from 'muwum-eslint-config';
+import {electronVueTs} from 'muwum-eslint-config';
 
 export default [
-  muwum,
+  electronVueTs,
   // other configurations
 ];
 ```
