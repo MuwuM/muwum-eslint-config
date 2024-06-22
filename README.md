@@ -5,7 +5,7 @@ This package provides a shared ESLint configuration for Muwum's personal project
 ## Installation
 
 ```bash
-npm install --save-dev https://github.com/MuwuM/muwum-eslint-config@main
+npm install --save-dev https://github.com/MuwuM/muwum-eslint-config
 ```
 
 ## Usage
