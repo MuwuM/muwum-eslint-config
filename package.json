@@ -1,0 +1,20 @@
+{
+  "name": "muwum-eslint-config",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "MuwuM",
+  "license": "MPL-2.0",
+  "description": "This package provides a shared ESLint configuration for Muwum's personal projects.",
+  "dependencies": {
+    "eslint": "^9.5.0",
+    "globals": "^15.6.0",
+    "typescript-eslint": "^8.0.0-alpha.30",
+    "eslint-plugin-vue": "^9.26.0",
+    "eslint-plugin-prettier": "^5.0.0",
+    "vue-eslint-parser": "^9.4.2",
+    "@typescript-eslint/parser": "^8.0.0-alpha.30"
+  }
+}
