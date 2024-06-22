@@ -15,10 +15,10 @@ Add it to your `eslint.config.mjs`.
 ### electron + vue + typescript
 
 ```javascript
-import {electronVueTs} from 'muwum-eslint-config';
+import muwum from 'muwum-eslint-config';
 
 export default [
-  electronVueTs,
+  muwum.electron.vue.ts,
   // other configurations
 ];
 ```
